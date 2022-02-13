@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@100;400&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Urbanist', sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.Navbar-Container{
+  height: 60px;
+}
+.Navbar-Wrapper{
+  padding: 20px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(4, 134, 134);
+  color: white;
+  height: 20px;
+}
+.Navbar-Left{
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+.Navbar-Language{
+  font-size: 14px;
+  cursor: pointer;
+}
+.Navbar-SearchContainer{
+  border: 0.5px solid lightgray;
+  display: flex;
+  align-items: center;
+  margin-left: 25px;
+  padding: 5px;
+}
+.Navbar-Input{
+  border: none;
+}
+.Navbar-Center{
+  flex: 1;
+  text-align: center;
+}
+.Navbar-Logo{
+  font-weight: bold;
+  font-size: 30px;
+  color: black;
+  font-weight: bold;
+  text-shadow: 1px 1px rgb(14, 196, 196);
+}
+.Navbar-Right{
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.Navbar-MenuItem{
+  font-size: 14px;
+  cursor: pointer;
+  margin-left: 25px;
+  color: white;
+}
+.Slider-Container{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+.Slider-Wrapper{
+  height: 100%;
+  display: flex;
+  transition: all 1.5s ease;
+}
+.Slider-Slide{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background-color: rgb(165, 139, 139);
+}
+.Slider-ImgContainer{
+  height: 100%;
+  flex: 1;
+  z-index: 1;
+}
+.Slider-InfoContainer{
+  flex: 1;
+  padding: 50px;
+}
+.Slider-Title{
+  font-size: 70px;
+  letter-spacing: 1px;
+}
+.Slider-Image{
+  height: 100%;
+  z-index: 1;
+}
+.Slider-Button{
+  padding: 10px;
+  font-size: 20px;
+  background-color: transparent;
+  cursor: pointer;
+  box-sizing: border-box;
+  border-radius: 8px;
+  transition: all 0.3s ease-out;
+  font-weight: 500;
+  cursor: pointer;
+}
+.Categories-Container1{
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+}
+.Categories-Container2{
+  flex: 1;
+  margin: 30px;
+  height: 60vh;
+  width: 10vw;
+  position: relative;
+}
+.Categories-Image{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: blur(1px);
+}
+.Categories-Info{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.Categories-Title{
+  color:black;
+  margin-bottom: 20px;
+  font-weight: bolder;
+  text-align: start;
+  font-size: 30px;
+  text-shadow: 1px 1px rgb(6, 14, 14);
+}
+.Categories-Button{
+  border:none;
+  padding: 10px;
+  background-color: white;
+  color:black;
+  cursor: pointer;
+  font-weight: 600;
+  cursor: pointer;
+}
+.Register-Container{
+  width: 100vw;
+  height: 100vh;
+  background: 
+    url("https://cdn.wallpapersafari.com/85/78/UxoClZ.jpg")
+      center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Register-Wrapper{
+  width: 40%;
+  position: absolute;
+  top: 20%;
+}
+.Register-Title{
+  font-size: 24px;
+  font-weight: 300;
+  font-weight: bold;
+}
+.Register-Form{
+  display: flex;
+  flex-wrap: wrap;
+}
+.Register-Input{
+  flex: 1;
+  min-width: 40%;
+  margin: 20px 10px 0px 0px;
+  padding: 10px;
+  color: grey;
+  font-size: 1em;
+}
+::placeholder {
+  color: grey;
+  font-size: 1em;
+}
+.Register-Agreement{
+  font-size: 12px;
+  margin: 20px 0px;
+  font-weight: 500;
+}
+.Register-Button1{
+  width: 30%;
+  border: none;
+  padding: 15px 20px;
+  background-color: rgb(25, 104, 25);
+  color: black;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  position: relative;
+  left: 18%;
+  cursor: pointer;
+}
+.Register-Button2{
+  width: 30%;
+  border: none;
+  padding: 25px 20px;
+  background-color: gray;
+  color: black;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 10px;
+  position: relative;
+  left: 20%;
+  cursor: pointer;
+}
+.Login-Container{
+  width: 100vw;
+  height: 100vh;
+  background: 
+    url("https://cdn.pixabay.com/photo/2019/04/15/18/13/bathroom-4130000_1280.jpg") center;
+  
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Login-Wrapper{
+  width: 25%;
+  padding: 20px;
+  position: absolute;
+  top: 20%;
+  right: 51%;
+}
+.Login-Title{
+  font-size: 24px;
+  font-weight: 300;
+  font-weight: bold;
+  position: relative;
+  right: 0%;
+}
+.Login-Form{
+  display: flex;
+  flex-direction: column;
+
+}
+.Login-Input{
+  flex: 1;
+  width: 70%;
+  margin: 10px 0;
+  padding: 10px;
+}
+.Login-Button{
+  width: 40%;
+  border: none;
+  padding: 15px 20px;
+  margin: 10px 0;
+  background-color: teal;
+  color: white;
+  cursor: pointer;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.Login-Link{
+  margin: 5px 0px;
+  font-size: 13px;
+  text-decoration: underline;
+  cursor: pointer;
+  text-align: justify;
+}
+.Error{
+  color: red;
+}
+
